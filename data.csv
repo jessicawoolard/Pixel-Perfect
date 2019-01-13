@@ -4,3 +4,17 @@ travel,PLAYING WITH KITE AT BEACH,"Sed diam nonumy eirmod tempor invidunt ut lab
 react,AT VERO EOS ETACCUSAM ET JUSTO DUO,"Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. sed diam voluptua Lorem ipsum dolor sit sadipscing elitr amet, consetetur",Mady,"December 29, 2017",post-thumb-3.jpg
 travel,AN IMAGINARY FOR TRAVELERS,"Magna aliquyam erat, Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Sed diam nonumy eirmod tempor invidunt ut labore et dolore. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. sed diam voluptua Lorem ipsum dolor sit sadipscing elitr amet, consetetur",Dan,"June 24, 2017",post-thumb-4.jpg
 dachshunds,AWESOME SLIDER POST,"Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. sed diam voluptua Lorem ipsum dolor sit sadipscing elitr amet, consetetur",Kepler,"March 17, 2017",post-thumb-7.jpg
+
+
+
+
+
+
+
+
+<div class="category"></div>
+                <div class="title"></div>
+                <div class="body"></div>
+                <div class="author"></div>
+                <div class="date"></div>
+                <div class="image"></div>
