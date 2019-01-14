@@ -22,13 +22,21 @@ nav {
 }
 
 .links {
-    width: 50%;
     float: left;
+}
+
+.links a {
+    text-decoration: none;
+    color: #3B3B3B;
 }
 
 span {
     margin: 10px;
     font-weight: bold;
+}
+.links a:active {
+    background-color: #D9532F;
+    color: white;
 }
 
 .social-media {
@@ -168,6 +176,11 @@ span {
     background-color: white;
 }
 
+.name {
+    font-weight: bold;
+    margin: 10px;
+}
+
 .blogger-bio {
     margin: 20px;
     font-size: 13px;
@@ -186,21 +199,53 @@ span {
     text-align: center;
 }
 
-.more-posts{
+.popular-posts{
     float: right;
     background-color: white;
     width: 30%;
     height: 100%;
     text-align: center;
+    padding: 15px;
 }
-.more-posts .popular-posts {
+
+.popular-post {
+    float: right;
+    border-bottom: 1px solid lightgray;
+}
+.popular-post:last-child {
+    border-bottom: none;
+}
+
+.popular-posts h2 {
     text-transform: uppercase;
     font-size: 13px;
     font-weight: bold;
 }
 
-.more-posts img {
-    width: 75%;
+.popular-post img {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.popular-post hr {
+    border: 1px solid lightgray;
+    margin-top: 15px;
+}
+.popular-post .title {
+    margin: 0;
+    text-align: left;
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.popular-post .date {
+    text-align: left;
+    font-size: 10px;
+    font-style: italic;
+}
+.popular-post {
+    display: block;
 }
 
 /*-------------------------END OF SIDE POSTS------------------*/
@@ -212,18 +257,27 @@ span {
 .pages {
     margin: 30px auto;
     width: 75%;
+    max-width: 1000px;
 }
 
 .pages a {
     color: #3B3B3B;
     border: 2px solid white;
-    padding: 5px;
+    padding: 3px 7px;
     margin: 1px;
     background-color: white;
-    font-size: 13px;
+    font-size: 11px;
     font-weight: bold;
     text-decoration: none;
 }
+
+.pages a.active {
+    background-color: #D9532F;
+    color: white;
+}
+
+
+
 /*----------------------FAT FOOTER--------------------*/
 .instagram {
     bottom: 0;
@@ -238,21 +292,59 @@ span {
     font-size: 13px;
 }
 
+.photo-bar .bar-image {
+    position: relative;
+    width: 12.5%;
+    margin: 0;
+    float: left;
+}
+.overlay {
+    position: absolute;
+    opacity: 0.3;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+.overlay:hover {
+    background-color: red;
+}
+
+.bar-image img {
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+
 /*-------------------FOOTER/BLACK BAR----------------------*/
 footer {
     float: left;
     width: 100%;
     height: 50px;
     background-color: black;
+    position: relative;
 }
 .copy_right {
-    float: left;
     color: gray;
-    background-color: black;
-    width: 100%;
-    height: 50px;
     text-align: center;
+    font-size: 13px;
 }
 .copy_right span {
     color: red;
+}
+
+.arrow {
+    padding: 6px 10px 9px;
+    height: 30px;
+    width: 30px;
+    background: #8C3B21;
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+.arrow i {
+    font-size: 15px;
+    color: white;
+
 }
